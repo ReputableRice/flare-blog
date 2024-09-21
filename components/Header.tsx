@@ -1,6 +1,7 @@
 import React from 'react';
 import SiteLogo from './logos/SiteLogo';
 import { GlobalData } from '../lib/types';
+import Logo from './logos/Logo';
 
 export default function Header({ name }: { name: GlobalData }): JSX.Element {
   return (
