@@ -9,7 +9,6 @@ export default function Logo() {
                 width={25}
                 src={logo}
                 alt="lighthouse logo"
-                style={{ filter:"drop-shadow(0 0 0.2rem #262933)"}}
                 />
         </>
     )

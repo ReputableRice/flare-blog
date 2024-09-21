@@ -14,7 +14,7 @@ export default function SiteLogo({
         <Logo />
         <Link
           href="/"
-          className="bg-gradient-to-r from-cyan-700 to-teal-600 bg-clip-text text-4xl font-bold tracking-tighter text-transparent dark:from-cyan-300 dark:to-teal-200"
+          className="bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text text-4xl font-bold font-mono tracking-tighter text-transparent dark:from-cyan-300 dark:to-teal-200"
         >
           {siteData.metadata.site_title}
         </Link>
