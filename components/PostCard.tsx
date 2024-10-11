@@ -40,7 +40,7 @@ export default function PostCard({ post }: { post: Post }) {
           __html: sanitize(post.metadata.teaser) ?? '',
         }}
       />
-      <div className="flex items-center justify-between font-medium text-green-600 dark:text-green-200">
+      <div className="flex items-center justify-between font-medium text-stone-600  dark:text-stone-600 ">
         <Link href={`/posts/${post.slug}`}>
           <div className="flex items-center space-x-2">
             <span>Read article</span>

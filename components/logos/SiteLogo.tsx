@@ -11,10 +11,9 @@ export default function SiteLogo({
   return (
     <div className="mx-auto flex w-full max-w-3xl flex-col items-center justify-between px-4 py-4 md:flex-row lg:px-0">
       <h1 className="flex space-x-2">
-        <Logo />
         <Link
-          href="/"
-          className="bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text text-4xl font-bold font-mono tracking-tighter text-transparent dark:from-cyan-300 dark:to-teal-200"
+          href="/" 
+          className="text-gray-700 bg-clip-text text-4xl font-sansfont-bold	"
         >
           {siteData.metadata.site_title}
         </Link>

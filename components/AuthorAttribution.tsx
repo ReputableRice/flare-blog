@@ -11,7 +11,7 @@ export default function AuthorAttribution({
       <span>by</span>
       <a
         href={`/author/${post.metadata.author?.slug}`}
-        className="font-medium text-green-600 dark:text-green-200"
+        className="font-medium text-stone-600 dark:text-stone-200"
       >
         {post.metadata.author?.title}
       </a>
