@@ -1,15 +1,15 @@
 import Image from "next/image"
-import logo from "../../public/images/LighthouseLogo.png"
+import logo from "../../public/images/Flare.svg"
 
 export default function Logo() {
     return (
         <>
             <Image
-                height={25}
-                width={25}
+                height={60}
+                width={60}
                 src={logo}
-                alt="lighthouse logo"
-                />
+                alt="Flare logo"
+            />
         </>
     )
 }
