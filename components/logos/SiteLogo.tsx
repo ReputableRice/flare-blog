@@ -15,7 +15,8 @@ export default function SiteLogo({
           href="/" 
           className="text-gray-700 bg-clip-text text-4xl font-sansfont-bold	"
         >
-          {siteData.metadata.site_title}
+          <Logo />
+          {/* {siteData.metadata.site_title} */}
         </Link>
       </h1>
       <span className="relative hidden text-lg tracking-wide text-zinc-500 dark:text-zinc-200 md:flex">
