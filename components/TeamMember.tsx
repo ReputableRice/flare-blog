@@ -1,12 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
 import { Mail, Github, Linkedin } from 'lucide-react';
+import { StaticImageData } from 'next/image';
 
 interface TeamMemberProps {
   name?: string;
   role?: string;
   bio?: string;
-  imageUrl?: string;
+  imageUrl?: string | StaticImageData;
   email?: string;
   github?: string;
   linkedin?: string;
