@@ -13,6 +13,11 @@ module.exports = {
       fontFamily: {
         sans: ['var(--font-sans)', ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        highlighter: {
+          default: '#F45D01',
+        },
+      },
     },
   },
   plugins: [],
