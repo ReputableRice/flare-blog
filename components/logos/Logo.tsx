@@ -1,15 +1,15 @@
 import Image from "next/image"
-import logo from "../../public/images/FlareLogo.svg"
+import logo from "../../public/images/Flare.svg"
 
 export default function Logo() {
     return (
         <>
             <Image
-                height={200}
-                width={200}
+                height={60}
+                width={60}
                 src={logo}
                 alt="Flare logo"
-                />
+            />
         </>
     )
 }
