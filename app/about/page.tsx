@@ -67,7 +67,7 @@ const teamMembers = [
     bio: "Full Stack Web Developer",
     imageUrl: tmStock,
     github: "https://github.com/Jin-fswd",
-    linkedin: ""
+    linkedin: "https://www.linkedin.com/in/hj-a-2470ba2a2/"
   },
 ];
 
