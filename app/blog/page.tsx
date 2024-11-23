@@ -9,7 +9,7 @@ export default async function Blog(): Promise<JSX.Element> {
       <Suspense fallback={<Loader />}>
         <div className='mx-auto mt-4 w-full max-w-3xl flex-col space-y-16 px-4 lg:px-0'>
           <div className="space-y-6">
-            <h1 className="text-gray-100 bg-clip-text text-4xl font-sans font-bold mt-9 tracking-tight">
+            <h1 className=" bg-clip-text text-4xl font-sans font-bold mt-9 tracking-tight">
               Blog
             </h1>
             
@@ -21,7 +21,7 @@ export default async function Blog(): Promise<JSX.Element> {
               </div>
               
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-b from-gray-900/0 via-gray-900/50 to-gray-900/0 blur-sm -z-10" />
+                <div className="absolute inset-0 from-gray-900/0 via-gray-900/50 to-gray-900/0 blur-sm -z-10" />
                 <PostList showLatestOnly={false} />
               </div>
             </div>
