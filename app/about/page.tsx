@@ -76,7 +76,7 @@ export default async function About(): Promise<JSX.Element> {
     <>
       <Suspense fallback={<Loader />}>
         <div className='mx-auto mt-4 w-full max-w-6xl flex-col space-y-16 px-4 lg:px-0'>
-          <h1 className="text-gray-100 bg-clip-text text-4xl font-sans font-bold mt-9">
+          <h1 className="bg-clip-text text-4xl font-sans font-bold mt-9">
             About
           </h1>
           
