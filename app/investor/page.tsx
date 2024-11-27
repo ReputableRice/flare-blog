@@ -12,10 +12,10 @@ export default async function InvestorPage(): Promise<JSX.Element> {
         {/* Hero Section */}
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-32">
           <div className="flex flex-col justify-center space-y-6">
-            <h1 className="text-5xl font-extrabold tracking-tight leading-tight">
+            <h1 className="text-5xl font-extrabold tracking-tight leading-tight text-zinc-900 dark:text-white">
               Partner with Flare to Shape a Safer Future
             </h1>
-            <p className="text-lg text-gray-700 max-w-md">
+            <p className="text-lg text-zinc-600 dark:text-zinc-300 max-w-md">
               With a growing user base and cutting-edge AI technology, Flare is transforming wildfire safety. Join us in driving innovation and making a global impact.
             </p>
             <a 
@@ -37,8 +37,8 @@ export default async function InvestorPage(): Promise<JSX.Element> {
         </section>
 
         <section className="mt-32 text-center space-y-8">
-          <h2 className="text-3xl font-bold">Our Mission</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-3xl font-bold text-zinc-900 dark:text-white">Our Mission</h2>
+          <p className="text-lg text-zinc-600 dark:text-zinc-300 max-w-3xl mx-auto">
             Flare is dedicated to saving lives and protecting communities by providing real-time wildfire updates, insights, and predictions. Together, we can create a safer and more sustainable future.
           </p>
         </section>
