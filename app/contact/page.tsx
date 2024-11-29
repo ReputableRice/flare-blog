@@ -24,16 +24,18 @@ export default function ContactPage(): JSX.Element {
   };
 
   return (
-    <main className="mx-auto mt-16 w-full max-w-6xl px-4 lg:px-0">
-      <section className="text-center space-y-8 mb-32">
-        <h1 className="text-4xl font-extrabold">Get in Touch with Us</h1>
-        <p className="text-lg text-gray-700 max-w-md mx-auto">
-          Have a question or need assistance? We'd love to hear from you.
+    <main className="mx-auto mt-16 w-full max-w-6xl flex-col space-y-16 px-4 lg:px-0">
+      <section className="flex flex-col items-center space-y-8">
+        <h1 className="text-5xl font-extrabold tracking-tight leading-tight text-zinc-900 dark:text-white text-center">
+          Get in Touch
+        </h1>
+        <p className="text-lg text-zinc-600 dark:text-zinc-300 max-w-2xl text-center">
+          Have questions about Flare? We're here to help. Send us a message and we'll get back to you as soon as possible.
         </p>
       </section>
 
-      <section className="mb-32">
-        <div className="flex flex-col space-y-6">
+      <section className="flex flex-col items-center justify-center mb-32 mx-auto w-full max-w-2xl">
+        <div className="flex flex-col space-y-6 w-full">
           <h2 className="text-3xl font-semibold">Send Us a Message</h2>
           <form onSubmit={handleSubmit} className="space-y-4">
             <input

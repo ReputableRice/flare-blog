@@ -16,6 +16,12 @@ export async function generateMetadata() {
   return {
     title: siteData.metadata.site_title,
     description: siteData.metadata.site_tag,
+    icons: {
+      icon: '/favicon.ico',
+      // Optional: Add more icon sizes/types
+      apple: '/favicon.png',
+      shortcut: '/favicon.ico',
+    }
   };
 }
 

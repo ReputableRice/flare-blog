@@ -3,6 +3,15 @@ import { Loader } from '../../components/Loader';
 import { Suspense } from 'react';
 import Image from 'next/image';
 
+import { Metadata } from 'next';
+
+export const generateMetadata = async (): Promise<Metadata> => {
+  return {
+    title: 'Flare - You | Wildfire Safety Companion',
+    description: 'Get real-time wildfire alerts, evacuation updates, and safety tips to plan your adventures responsibly with Flare.',
+  };
+};
+
 export default async function CustomerPage(): Promise<JSX.Element> {
   const imageURL = "https://images.pexels.com/photos/9210464/pexels-photo-9210464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 

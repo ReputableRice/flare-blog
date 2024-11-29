@@ -4,6 +4,15 @@ import { Suspense } from 'react';
 import Image from 'next/image';
 import hero from '../public/images/wildfire.jpg';
 
+import { Metadata } from 'next';
+
+export const generateMetadata = async (): Promise<Metadata> => {
+  return {
+    title: 'Flare - Home | Wildfire Safety Companion',
+    description: 'Get real-time wildfire alerts, evacuation updates, and safety tips to plan your adventures responsibly with Flare.',
+  };
+};
+
 export default async function Page(): Promise<JSX.Element> {
   return (
     <main className="mx-auto mt-16 w-full max-w-6xl flex-col space-y-16 px-4 lg:px-0">
