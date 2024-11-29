@@ -3,7 +3,7 @@ import { Suspense } from 'react';
 import { Loader } from '../../components/Loader';
 import Image from 'next/image';
 import TeamMember from '../../components/TeamMember';
-import logo from '../../public/images/FlareLogo.svg';
+import logo from '../../public/images/LogoWStroke.svg';
 import tmK from "../../public/images/tmK.jpg";
 import tmS from "../../public/images/tmS.jpg";
 import tmB from "../../public/images/tmB.jpg";
@@ -81,7 +81,7 @@ export default async function About(): Promise<JSX.Element> {
           </h1>
           
           <div className='mt-1'>
-            <p className='mb-8'>Get to know the team at</p>
+            <p className='mb-8 text-3xl'>Get to know the team at</p>
             
             <div className="flex justify-center mb-12">
               <Image

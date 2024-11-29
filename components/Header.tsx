@@ -11,10 +11,10 @@ export default function Header({ name }: { name: GlobalData }): JSX.Element {
         <div className="flex items-center">
           <div className="relative group">
             <Link 
-              href="/" 
+              href="/contact" 
               className="m-6 text-2xl mr-5 text-zinc-800 dark:text-zinc-200 hover:text-zinc-700 dark:hover:text-zinc-300 flex items-center"
             >
-              Home
+              Contact Us
               <svg 
                 className="w-4 h-4 ml-1 mt-1" 
                 fill="none" 
@@ -37,14 +37,14 @@ export default function Header({ name }: { name: GlobalData }): JSX.Element {
                       href="/investor"
                       className="block px-4 py-2 text-zinc-800 hover:bg-zinc-100 dark:text-zinc-200 dark:hover:bg-zinc-800"
                     >
-                      Investors
+                      As Investors
                     </Link>
                   </li>
                   <Link
                     href="/customer"
                     className="block px-4 py-2 text-zinc-800 hover:bg-zinc-100 dark:text-zinc-200 dark:hover:bg-zinc-800"
                   >
-                    Customers
+                    As Customers
                   </Link>
                 </li>
               </ul>
