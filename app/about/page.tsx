@@ -9,6 +9,8 @@ import tmS from "../../public/images/tmS.jpg";
 import tmB from "../../public/images/tmB.jpg";
 import tmJ from "../../public/images/tmJ.png";
 import tmH from "../../public/images/tmH.jpg";
+import tmA from "../../public/images/tmA.jpg";
+import tmJDev from "../../public/images/tmJDev.jpg";
 import tmStock from "../../public/images/tmStock.jpg";
 // import tmS from "../../public/images/tmS.jpg";
 
@@ -17,15 +19,15 @@ const teamMembers = [
     name: "Jackie",
     role: "Frontend Developer",
     bio: "Passionate about creating beautiful user interfaces",
-    imageUrl: tmJ, // Replace with actual image path
+    imageUrl: tmJ, 
     github: "https://github.com/ReputableRice",
-    linkedin: ""
+    linkedin: "https://www.linkedin.com/in/jackie-truong-964079213/"
   },
   {
     name: "Ben",
     role: "Frontend Developer",
     bio: "Creating accessible, trustworthy apps with UX UI principles. ",
-    imageUrl: tmB, // Replace with actual image path
+    imageUrl: tmB, 
     github: "https://github.com/Sucralosee",
     linkedin: "https://www.linkedin.com/in/ben-louis-001116308/"
   },
@@ -33,7 +35,7 @@ const teamMembers = [
     name: "Henver",
     role: "Frontend Developer",
     bio: "Passionate about creating beautiful user interfaces",
-    imageUrl: tmH, // Replace with actual image path
+    imageUrl: tmH, 
     github: "https://github.com/Hennyyyy8",
     linkedin: "https://www.linkedin.com/in/henver-bio-87905129b/"
   },
@@ -41,7 +43,7 @@ const teamMembers = [
     name: "Sebastian",
     role: "Frontend Developer",
     bio: "Passionate about creating beautiful user interfaces",
-    imageUrl: tmS, // Replace with actual image path
+    imageUrl: tmS, 
     github: "https://github.com/BwesewB",
     linkedin: "https://www.linkedin.com/in/sebastianfok/"
   },
@@ -49,9 +51,9 @@ const teamMembers = [
     name: "Allison",
     role: "Full Stack Web Developer",
     bio: "Full Stack Web Developer",
-    imageUrl: tmStock,
+    imageUrl: tmA,
     github: "https://github.com/allison-dahan",
-    linkedin: ""
+    linkedin: "https://www.linkedin.com/in/allison-dahan-799860216/"
   },
   {
     name: "Kevin",
@@ -65,7 +67,7 @@ const teamMembers = [
     name: "Jin",
     role: "Full Stack Web Developer",
     bio: "Full Stack Web Developer",
-    imageUrl: tmStock,
+    imageUrl: tmJDev,
     github: "https://github.com/Jin-fswd",
     linkedin: "https://www.linkedin.com/in/hj-a-2470ba2a2/"
   },
