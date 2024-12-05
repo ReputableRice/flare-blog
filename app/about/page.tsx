@@ -18,7 +18,7 @@ const teamMembers = [
   {
     name: "Jackie",
     role: "Frontend Developer",
-    bio: "Passionate about creating beautiful user interfaces",
+    bio: "Creating beautiful graphics",
     imageUrl: tmJ, 
     github: "https://github.com/ReputableRice",
     linkedin: "https://www.linkedin.com/in/jackie-truong-964079213/"
@@ -26,7 +26,7 @@ const teamMembers = [
   {
     name: "Ben",
     role: "Frontend Developer",
-    bio: "Creating accessible, trustworthy apps with UX UI principles. ",
+    bio: "Creating accessible, trustworthy web applications with UX UI principles. ",
     imageUrl: tmB, 
     github: "https://github.com/Sucralosee",
     linkedin: "https://www.linkedin.com/in/ben-louis-001116308/"
@@ -42,7 +42,7 @@ const teamMembers = [
   {
     name: "Sebastian",
     role: "Frontend Developer",
-    bio: "Passionate about creating beautiful user interfaces",
+    bio: "Motion graphics, Photoshop, and Frontend Developer",
     imageUrl: tmS, 
     github: "https://github.com/BwesewB",
     linkedin: "https://www.linkedin.com/in/sebastianfok/"
@@ -50,7 +50,7 @@ const teamMembers = [
   {
     name: "Allison",
     role: "Full Stack Web Developer",
-    bio: "Full Stack Web Developer",
+    bio: "Solving real-world problems through full-stack development and continous innovation",
     imageUrl: tmA,
     github: "https://github.com/allison-dahan",
     linkedin: "https://www.linkedin.com/in/allison-dahan-799860216/"
@@ -66,7 +66,7 @@ const teamMembers = [
   {
     name: "Jin",
     role: "Full Stack Web Developer",
-    bio: "Full Stack Web Developer",
+    bio: "Handle web development Learning and growing through trial and error :/",
     imageUrl: tmJDev,
     github: "https://github.com/Jin-fswd",
     linkedin: "https://www.linkedin.com/in/hj-a-2470ba2a2/"
